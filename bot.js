@@ -34,8 +34,8 @@ const moment = require('moment');
 //////////////////////////////////////////////iyvu
 
 
-const developers = ["456641975932813345"]
-const adminprefix = "!";
+const developers = ["465433952535052288"]
+const adminprefix = "$";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
